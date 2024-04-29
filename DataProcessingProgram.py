@@ -11,10 +11,6 @@ from scipy.optimize import minimize
 import numpy as np
 from math import sqrt
 
-## ---------- demo 1 final version ---------- ##
-
-# Ignoring area codes at the moment
-
 def compile_information(change, scan_number, client, df1, df2):
     # Assuming 'TagID', 'ReceiverID', and 'radius' are fields in the change document
     # Safely get 'fullDocument' from 'change'; default to an empty dict if not found
